@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Apertura masiva</Id>
+  <Titulo>Apertura masiva</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl>apertura_masiva</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Apertura masiva
+--
+
+0.0.1  --  14/12/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables/>
+</OpenFIN_VSR>

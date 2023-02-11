@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glabels-document xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Avery" part="3114" size="US-Letter" description="Etiquetas de página completa">
+    <Meta category="label"/>
+    <Label-rectangle id="0" width="8.5in" height="11in" round="0in" x_waste="0in" y_waste="0in">
+      <Markup-margin size="0.0625in"/>
+      <Layout nx="1" ny="1" x0="0in" y0="0in" dx="0in" dy="0in"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="False">
+    <Object-text x="0.368in" y="0.741226in" w="7.76057in" h="0.489794in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Los intereses se calcularán multiplicando el saldo insoluto del crédito otorgado, por la tasa de interés anual antes referida, dividiendo lo que resulte del producto por 360 (trescientos sesenta) días, multiplicado por el número de días efectivamente transcurridos.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="1.2794in" w="7.74082in" h="0.749055in" justify="Left" valign="Center" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">El Suscriptor se obliga a pagar al Beneficiario intereses moratorios sobre el importe de las cantidades vencidas y no pagadas desde el día inmediato siguiente a la fecha de su vencimiento y hasta el día en que queden totalmente cubiertas, mismos que se calcularán multiplicando por 2 (dos) veces la tasa de interés ordinaria establecida en el presente Pagaré. El Suscriptor reconoce que por intereses moratorios se entenderán aquellos que se generan por incumplimiento a cualquier obligación de pago consignada en el presente Pagaré.</Span>
+    </Object-text>
+    <Object-text x="0.387753in" y="1.85355in" w="7.74972in" h="0.97428in" justify="Left" valign="Center" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1"><NL/>Si cualquier pago que deba hacerse conforme a este Pagaré venciera en cualquier día en que las Instituciones de Crédito del Distrito <NL/>Federal no estuvieren abiertas al público para la realización de operaciones bancarias normales, dicho pago se hará en el día hábil <NL/>inmediato posterior a aquel que no lo fuere sin necesidad de requerimiento alguno.</Span>
+    </Object-text>
+    <Object-text x="0.398158in" y="2.69579in" w="7.74972in" h="0.596866in" justify="Left" valign="Center" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Todos los pagos que deban hacerse conforme al presente Pagaré se harán libres y sin deducción alguna o retención por concepto de <NL/>cualquier tipo de contribuciones.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="3.15162in" w="7.74972in" h="0.749055in" justify="Left" valign="Center" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">El tenedor del presente Pagaré podrá exigirlo en su totalidad, en una sola exhibición, al momento en que el Suscriptor incurra en mora. El Suscriptor renuncia en este acto a toda diligencia, presentación, protesto o aviso por falta de pago o rechazo de este Pagaré. </Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="3.62529in" w="7.71665in" h="1.18017in" justify="Left" valign="Center" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Para los efectos de los artículos 128, 160 y 165 de la Ley General de Títulos y Operaciones de Crédito, los plazos de caducidad y prescripción de las acciones cambiarías de este Pagaré por falta de presentación para su cobro se prorrogan irrevocablemente hasta 6 (seis) años contados a partir de la fecha de su suscripción, en el entendido de que dicha extensión no impedirá la presentación de este Pagaré con anterioridad a dicha fecha.</Span>
+    </Object-text>
+    <Object-text x="0.378415in" y="4.56035in" w="7.67615in" h="0.749068in" justify="Left" valign="Center" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">El presente Pagaré se rige por las leyes de los Estados Unidos Mexicanos, por lo que, para todo lo relativo a lainterpretación y cumplimiento de las obligaciones contenidas en el mismo, el Suscriptor se somete irrevocablemente a la jurisdicción de los tribunales competentes de la Ciudad de México, o bien, del Estado de México indistintamente a elección de la actora, por lo que el Suscriptor renuncia expresamente a cualquier otro fuero que por razón de su domicilio presente o futuro pudiera corresponderle.</Span>
+    </Object-text>
+    <Object-text x="0.407745in" y="5.6541in" w="7.61698in" h="0.856827in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">El Suscriptor señala como domicilio para recibir cualquier emplazamiento y/o notificación, relacionado con este Pagaré,el ubicado en $direccion_asoc..</Span>
+    </Object-text>
+    <Object-text x="0.387753in" y="6.19353in" w="7.74972in" h="0.351537in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">En la Ciudad de México, a $fe_activacion_de_de.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="7.56944in" w="0.178067in" h="0.204355in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1"/>
+    </Object-text>
+    <Object-text x="0.548316in" y="8.37894in" w="3.08347in" h="0.749055in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">El Suscriptor</Span>
+    </Object-text>
+    <Object-text x="0.708025in" y="9.15557in" w="2.81075in" h="0.279834in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">$nombre_socio</Span>
+    </Object-text>
+    <Object-line x="0.753625in" y="9.13108in" dx="2.621in" dy="-4.57087e-16in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="4.77054in" y="8.36853in" w="3.08347in" h="0.749055in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">El Obligado Solidario o Aval</Span>
+    </Object-text>
+    <Object-text x="4.58303in" y="9.15557in" w="3.41209in" h="0.279834in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">$aval_paterno_1 $aval_materno_1 $aval_nombre_1</Span>
+    </Object-text>
+    <Object-line x="4.97585in" y="9.13108in" dx="2.621in" dy="-4.57087e-16in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="1.76981in" y="7.51843in" w="4.72313in" h="0.204355in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1"/>
+    </Object-text>
+  </Objects>
+  <Data/>
+</Glabels-document>

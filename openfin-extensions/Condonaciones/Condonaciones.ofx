@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Condonaciones</Id>
+  <Titulo>Condonaciones</Titulo>
+  <Grupo>tb.ventanilla</Grupo>
+  <FxControl>condonaciones</FxControl>
+  <Version>3.1.10</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Extension para la aplicacion de pago a intereses por medio de un gasto
+a la entidad.
+
+3.1.10  --  02/02/2021
+---------------------
+* Se hacen ajustes de ortografía
+
+3.1.9  --  07/10/2020
+---------------------
+* Se agrega mensaje de confirmación 
+
+3.1.8  --  30/01/2020
+---------------------
+* Ajuste por cancelacion de moratorios en cuentas de orden
+* Ajuste de asiento contable imeco en prestamos vigentes
+--
+
+3.1.8  --  30/01/2020
+---------------------
+* Ajuste por cancelacion de moratorios en cuentas de orden
+* Ajuste de asiento contable imeco en prestamos vigentes
+
+3.1.7  --  13/09/2019
+---------------------
+* Ajuste para movimientos de interes moratorio con cuentas de orden
+* Compatibilidad con el metodo de interes al vencimiento del abono
+* Se permite condonación única de moratorio sin asientos contables
+
+3.1.6  --  12/11/2018
+---------------------
+* Ajuste para incluir el método de contabilización por subtipo de prestamo y producto
+
+3.1.5  --  30/04/2018
+---------------------
+* Ajuste para reducir estimación cuando la condonación por ingresos
+
+
+3.1.4  --  28/04/2017
+---------------------
+* Ajuste para no duplicar en registro de intereses
+* El auxiliar visualizado en el módulo de ventanilla se asignará automáticamente a la extensión
+
+3.1.3  --  29/12/2016
+---------------------
+* Ajustes para no duplicar los intereses moratorias y ordinarios.
+* Ajuste para mostrar detalles de intereses moratorias condonados en el moduló de expedientes
+
+3.1.2  --  30/06/2016
+---------------------
+* Permiso para cancelar
+
+3.1.1  --  04/05/2016
+---------------------
+* Fix para cancelacion, error de variable no inicializada
+* Descartar condonaciones para cancelacion que no generaron 
+  poliza(moratorios sin registro contable)
+* Adaptacion de la interfaz a un estandar mas organizado
+* Validacion para el auxiliar capturado
+
+3.1.0  --  
+---------------------
+* Se agrego boton de impresion para reporte
+  Nota:Las fechas se toman de la pestaña "cancelacion"
+
+3.0.0  --  
+---------------------
+* Se incluye modulo para cancelar las condonaciones a travez de la póliza
+* Se mueve el reporte hacia bt_ejecutar en lugar de bt_aceptar para quitarlo de la pestaña query
+
+2.0.0  --  
+---------------------
+* Fix para la afectacion del plan de pago
+
+1.7.0  --  
+---------------------
+* Validacion para evitar que el auxiliar este siendo afectado en ventanilla al mismo tiempo
+* Cambio en el diseño del GUI para mantener el estandar de las nuevas extensiones.
+
+1.5.0  --  
+---------------------
+-Fix para el reporte mostrado, no desglosaba correctamente la informacion de intereses
+-Fix en validación de monto io, el iva no se usaba correctamente
+
+1.0.0  --  
+---------------------
+-Contiene fix sobre el desglose de iva.
+-Ya no se debe incluir el iva en el monto a condonar.
+-Incremento de reservas antes de aplicar la condonacion en creditos vigentes
+
+0.1.1  --  
+---------------------
+Genera poliza y afectacion de auxiliares para realizar
+una condonacion de interes sin pasar por un ingreso</Descripcion>
+  <Query>--SELECT * FROM condonaciones($idsucaux,$idproducto,$idauxiliar,of_numeric('$cio'),of_numeric('$cim'),$aplicar)</Query>
+  <Variables>
+    <Variable id="afecha" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="aplicar" params="type=BOOLEAN,label=Aplicar?"/>
+    <Variable id="bt_act_polizas" params="on_click=__q2,show_treeview=sw_polizas"/>
+    <Variable id="bt_act_polizas_ini" params="on_click=__q1,show_treeview=sw_polizas"/>
+    <Variable id="bt_ejecutar" params="type=reporte,on_click=__qpf"/>
+    <Variable id="bt_imprimir" params="type=reporte,on_click=__q_reporte,titulo=Condonaciones"/>
+    <Variable id="cim" params="type=NUMERIC,label=Mto. IM"/>
+    <Variable id="cio" params="type=NUMERIC,label=Mto. IO,next_focus=cim"/>
+    <Variable id="__data__" params="info_auxiliar"/>
+    <Variable id="defecha" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="idauxiliar" params="label=Auxiliar,type=integer,default=0,next_focus=cio"/>
+    <Variable id="idproducto" params="label=Producto,type=integer,search=t_productos,default=0,next_focus=idauxiliar"/>
+    <Variable id="idsucaux" params="label=Sucursal,type=integer,search=t_sucursales,default=$suc,next_focus=idproducto"/>
+    <Variable id="__q1" params="SELECT  ' ' AS &quot;Póliza&quot;, ' ' AS &quot;Auxiliar&quot;, ' ' AS &quot;Condonacion IO&quot;, ' ' AS &quot;Condonacion IM&quot;, ' ' AS &quot;Fecha Real&quot;, FALSE  AS &quot;Cancelado&quot;, ' ' AS &quot; &quot;"/>
+    <Variable id="__q2" params="SELECT poliza AS &quot;Póliza&quot;,auxiliar AS &quot;Auxiliar&quot;,condonacion_io AS &quot;Condonación IO&quot;,condonacion_im AS &quot;Condonacion IM&quot;,fecha_real AS &quot;Fecha Real&quot;,cancelado AS &quot;Cancelado&quot; FROM ofx_polizas_condoncacion(of_ofx_get('defecha')::DATE,of_ofx_get('afecha')::DATE)"/>
+    <Variable id="__qpf" params="SELECT * FROM condonaciones(of_ofx_get('idsucaux')::INTEGER,of_ofx_get('idproducto')::INTEGER,of_ofx_get('idauxiliar')::INTEGER,of_numeric(of_ofx_get('cio')),of_numeric(of_ofx_get('cim')),of_ofx_get('aplicar')::BOOLEAN)"/>
+    <Variable id="__q_reporte" params="SELECT key AS &quot;Auxiliar&quot;, poliza AS &quot;Poliza&quot;,iopend_ant AS &quot;Interes original&quot;, io_c AS &quot;Interes Condonado&quot;, impend_ant AS &quot;Moratorio Origial&quot;, im_c AS &quot;Moratorio Condonado&quot;, contabiliza_im AS &quot;Moratorio en Balance&quot;, idusuario AS &quot;Usuario&quot;, metodo_condonacion AS &quot;Metodo&quot;, fecha_oper AS &quot;Fecha&quot;  FROM ofx_reporte_condonaciones(of_ofx_get('defecha')::DATE,of_ofx_get('afecha')::DATE)"/>
+  </Variables>
+</OpenFIN_VSR>

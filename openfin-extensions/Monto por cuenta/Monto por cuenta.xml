@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Monto por cuenta</Id>
+  <Titulo>Monto por cuenta</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl>monto_por_cuenta</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>f</RequierePermiso>
+  <Descripcion>Monto por cuenta
+--
+
+0.0.1  --  04/01/2023
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables/>
+</OpenFIN_VSR>

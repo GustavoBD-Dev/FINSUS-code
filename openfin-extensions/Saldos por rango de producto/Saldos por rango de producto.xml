@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Saldos por rango de producto</Id>
+  <Titulo>Saldos por rango de producto</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl>saldos_rango_producto</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>f</RequierePermiso>
+  <Descripcion>Saldos por rango de producto
+--
+
+0.0.1  --  06/01/2023
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables/>
+</OpenFIN_VSR>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Historial de credito</Id>
+  <Titulo>Historial de credito</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl>historial_de_credito</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>f</RequierePermiso>
+  <Descripcion>Historial de credito
+--
+
+0.0.1  --  10/01/2023
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables/>
+</OpenFIN_VSR>

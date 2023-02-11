@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Vencimiento del mes</Id>
+  <Titulo>Vencimiento del mes</Titulo>
+  <Grupo>tb.abonos_por_vencer_r</Grupo>
+  <FxControl>ofx_sus_vece_x_mes</FxControl>
+  <Version>1.0.0</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Vencimiento del mes
+--
+1.0.1  --  19/10/2022
+---------------------
+* Corrección de problema con la columna de intereses Pandemia
+* Modificación de orden de columnas.
+
+
+1.0.0  --  09/09/2016
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT 
+  socio         AS "Socio",
+  auxiliar      AS "Auxiliar",
+  nombre        AS "Nombre",
+  fecha_act     AS "Fecha Act",
+  fecha_venc    AS "Fecha Venc",
+  mto_dsip      AS "Mto. Disp",
+  abono         AS "Abono",
+  interes       AS "Interes",
+  iva           AS "Iva",
+  seg_danos     AS "Seg.Daños",
+  iva_seg_danos AS "Iva.Seg.Daños",
+  seg_vida      AS "Seg.Vida",
+  gps           AS "Gps",
+  iva_gps       AS "Iva.Gps",
+  comision      AS "Comisión",
+  iva_comision  AS "Iva.Com",
+  diferido      AS "Diferido",
+  io_diferir    AS "IO Diferir",
+  io_cobrar     AS "IO Cobrar",
+  intereses_a_cobrar 	AS "Intereses a Cobrar",
+  suma_var_total	AS "Pago del periodo",
+  facturar      AS "Facturar",
+  num_pago      AS "Num.Pago"
+
+  FROM ofx_sus_vece_x_mes(of_ofx_get('defecha')::DATE,of_ofx_get('afecha')::DATE)</Query>
+  <Variables>
+    <Variable id="afecha" params="type=date,default=$fechat"/>
+    <Variable id="bt_act" params="type=treeview,on_click=__q2,container=sw_detalle"/>
+    <Variable id="bt_act_ini" params="type=treeview,on_click=__q1,container=sw_detalle"/>
+    <Variable id="defecha" params="type=date,default=$fechat"/>
+    <Variable id="__q1" params="SELECT &#10;  socio         AS &quot;Socio&quot;,&#10;  auxiliar      AS &quot;Auxiliar&quot;,&#10;  nombre        AS &quot;Nombre&quot;,&#10;  fecha_act     AS &quot;Fecha Act&quot;,&#10;  fecha_venc    AS &quot;Fecha Venc&quot;,&#10;  mto_dsip      AS &quot;Mto. Disp&quot;,&#10;  abono         AS &quot;Abono&quot;,&#10;  interes       AS &quot;Interes&quot;,&#10;  iva           AS &quot;Iva&quot;,&#10;  seg_danos     AS &quot;Seg.Daños&quot;,&#10;  iva_seg_danos AS &quot;Iva.Seg.Daños&quot;,&#10;  seg_vida      AS &quot;Seg.Vida&quot;,&#10;  gps           AS &quot;Gps&quot;,&#10;  iva_gps       AS &quot;Iva.Gps&quot;,&#10;  comision      AS &quot;Comisión&quot;,&#10;  iva_comision  AS &quot;Iva.Com&quot;,&#10;  diferido      AS &quot;Diferido&quot;,&#10;  io_diferir    AS &quot;IO Diferir&quot;,&#10;  io_cobrar     AS &quot;IO Cobrar&quot;,&#10;  intereses_a_cobrar &#9;AS &quot;Intereses a Cobrar&quot;,&#10;  suma_var_total&#9;AS &quot;Pago del periodo&quot;,&#10;  facturar      AS &quot;Facturar&quot;,&#10;  num_pago      AS &quot;Num.Pago&quot;FROM ofx_sus_vece_x_mes(of_ofx_get('defecha')::DATE,of_ofx_get('afecha')::DATE) LIMIT 0"/>
+    <Variable id="__q2" params="SELECT &#10;  socio         AS &quot;Socio&quot;,&#10;  auxiliar      AS &quot;Auxiliar&quot;,&#10;  substring(nombre,1,35)        AS &quot;Nombre&quot;,&#10;  fecha_act     AS &quot;Fecha Act&quot;,&#10;  fecha_venc    AS &quot;Fecha Venc&quot;,&#10;  mto_dsip      AS &quot;Mto. Disp&quot;,&#10;  abono         AS &quot;Abono&quot;,&#10;  interes       AS &quot;Interes&quot;,&#10;  iva           AS &quot;Iva&quot;,&#10;  seg_danos     AS &quot;Seg.Daños&quot;,&#10;  iva_seg_danos AS &quot;Iva.Seg.Daños&quot;,&#10;  seg_vida      AS &quot;Seg.Vida&quot;,&#10;  gps           AS &quot;Gps&quot;,&#10;  iva_gps       AS &quot;Iva.Gps&quot;,&#10;  comision      AS &quot;Comisión&quot;,&#10;  iva_comision  AS &quot;Iva.Com&quot;,&#10;  diferido      AS &quot;Diferido&quot;,&#10;  io_diferir    AS &quot;IO Diferir&quot;,&#10;  io_cobrar     AS &quot;IO Cobrar&quot;, intereses_a_cobrar &#9;AS &quot;Intereses a Cobrar&quot;,&#10;  suma_var_total&#9;AS &quot;Pago del periodo&quot;,&#10;  facturar      AS &quot;Facturar&quot;,&#10;  num_pago      AS &quot;Num.Pago&quot; FROM ofx_sus_vece_x_mes(of_ofx_get('defecha')::DATE,of_ofx_get('afecha')::DATE)"/>
+    <Variable id="sw_detalle_tv" params="sort=0;1;2"/>
+  </Variables>
+</OpenFIN_VSR>

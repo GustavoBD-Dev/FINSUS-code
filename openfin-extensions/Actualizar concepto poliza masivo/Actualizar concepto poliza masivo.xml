@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Actualizar concepto poliza masivo</Id>
+  <Titulo>Actualizar concepto poliza masivo</Titulo>
+  <Grupo>tb.aperturas</Grupo>
+  <FxControl>actualizar_concepto_poliza_masivo</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>f</RequierePermiso>
+  <Descripcion>Actualizar concepto poliza masivo
+--
+
+0.0.1  --  22/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT actualizar_concepto_poliza_masivo()</Query>
+  <Variables>
+    <Variable id="bt_previo" params="on_click=__queryload,type=treeview,container=tv_reporte"/>
+    <Variable id="__queryload" params="SELECT * FROM ofx_load_data_polizas_txt()"/>
+  </Variables>
+</OpenFIN_VSR>

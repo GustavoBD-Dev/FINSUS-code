@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Cobranza por nivel</Id>
+  <Titulo>Cobranza por nivel 2</Titulo>
+  <Grupo>tb.Ventanilla</Grupo>
+  <FxControl>ofx_fs_cobranza</FxControl>
+  <Version>1.0.0</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Cobranza por nivel
+Muestra la agrupacion de pagos recibidos en un rango
+de fechas
+--
+
+1.0.0 -- 29/11/2016
+Versión estable.
+
+0.0.1  --  31/05/2016
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT 
+    Cliente             AS "Cliente",
+    Nombre              AS "Nombre",
+    Auxiliar            AS "Auxiliar",
+    Fecha               AS "Fecha",
+    Pago                AS "Pago",
+    Capital             AS "Capital",
+    Intereses           AS "Intere",
+    Vencidos            AS "Vencidos",
+    IVA_io              AS "IVA IO",
+    Seguro_auto         AS "Seguro de daños",
+    IVA_seg_auto        AS "IVA Seg. Daños",
+    Seguro_vida         AS "Seguro de vida",
+    gps                 AS "GPS",
+    IVA_gps             AS "IVA GPS",
+    Comision            AS "Comision",
+    iva_comision        AS "Iva Comision",
+    diferido            AS "Int Diferido",
+    Monto_Cobrado       AS "Mto. Cob.",
+    Monto_Bonificado    AS "Sdo. A favor",
+    Monto_Aplicado      AS "Mto. Aplicado",
+    Poliza              AS "Poliza"
+FROM ofx_fs_cobranza_nivel(of_ofx_get('cb_nivel_idx')::INTEGER+1)
+--$dfecha
+--$afecha
+--$cb_nivel</Query>
+  <Variables>
+    <Variable id="afecha" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="bt_detalle" params="on_click=__q2,type=treeview,container=sw_det_cobranza"/>
+    <Variable id="bt_detalle_ini" params="on_click=__q1,type=treeview,container=sw_det_cobranza"/>
+    <Variable id="cb_nivel" params="type=integer"/>
+    <Variable id="dfecha" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="idasociado" params="label=Asociado,type=integer,search=t_vsr_socios,default=0"/>
+    <Variable id="idproducto" params="label=Producto,type=integer,search=t_productos,default=0"/>
+    <Variable id="idrol" params="label=Rol,type=integer,search=t_roles,default=0,next_focus=idasociado"/>
+    <Variable id="idsucursal" params="label=Sucursal,type=integer,search=t_sucursales,default=0,next_focus=idrol"/>
+    <Variable id="__q1" params="SELECT  &#10;    Cliente             AS &quot;Cliente&quot;,&#10;    Nombre              AS &quot;Nombre&quot;,&#10;    Auxiliar            AS &quot;Auxiliar&quot;,&#10;    Fecha               AS &quot;Fecha&quot;,&#10;    Pago                AS &quot;Pago&quot;,&#10;    Capital             AS &quot;Capital&quot;,&#10;    Intereses           AS &quot;Intere&quot;,&#10;    Vencidos            AS &quot;Vencidos&quot;,&#10;    IVA_io            AS &quot;IVA IO&quot;,&#10;    Seguro_auto         AS &quot;Seguro de daños&quot;,&#10;    IVA_seg_auto        AS &quot;IVA Seg. Daños&quot;,&#10;    Seguro_vida         AS &quot;Seguro de vida&quot;,&#10;    Localizador                 AS &quot;GPS&quot;,&#10;    IVA_gps             AS &quot;IVA GPS&quot;,&#10;    Comision                 AS &quot;Comision&quot;,&#10;    iva_comision             AS &quot;Iva Comision&quot;,     diferido            AS &quot;Int Diferido&quot;, &#10;    Monto_Cobrado       AS &quot;Mto. Cob.&quot;,&#10;    Monto_Bonificado    AS &quot;Sdo. A favor&quot;,&#10;    Monto_Aplicado      AS &quot;Mto. Aplicado&quot;,&#10;    Poliza              AS &quot;Poliza&quot;&#10; FROM temp_cobranza_sus LIMIT 0"/>
+    <Variable id="__q2" params="SELECT  &#10;    Cliente             AS &quot;Cliente&quot;,&#10;    Nombre              AS &quot;Nombre&quot;,&#10;    Auxiliar            AS &quot;Auxiliar&quot;,&#10;    Fecha               AS &quot;Fecha&quot;,&#10;    Pago                AS &quot;Pago&quot;,&#10;    Capital             AS &quot;Capital&quot;,&#10;    Intereses           AS &quot;Intere&quot;,&#10;    Vencidos            AS &quot;Vencidos&quot;,&#10;    IVA_io            AS &quot;IVA IO&quot;,&#10;    Seguro_auto         AS &quot;Seguro de daños&quot;,&#10;    IVA_seg_auto        AS &quot;IVA Seg. Daños&quot;,&#10;    Seguro_vida         AS &quot;Seguro de vida&quot;,&#10;    gps                 AS &quot;GPS&quot;,&#10;    IVA_gps             AS &quot;IVA GPS&quot;,&#10;    Comision                 AS &quot;Comision&quot;,&#10;    iva_comision             AS &quot;Iva comision&quot;, diferido,&#10;    Monto_Cobrado       AS &quot;Mto. Cob.&quot;,&#10;    Monto_Bonificado    AS &quot;Sdo. A favor&quot;,&#10;    Monto_Aplicado      AS &quot;Mto. Aplicado&quot;,&#10;    Poliza              AS &quot;Poliza&quot;&#10; FROM ofx_fs_cobranza(of_ofx_get('dfecha')::DATE,of_ofx_get('afecha')::DATE)"/>
+  </Variables>
+</OpenFIN_VSR>

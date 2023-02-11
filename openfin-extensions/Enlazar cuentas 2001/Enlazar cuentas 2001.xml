@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Enlazar cuentas 2001</Id>
+  <Titulo>Enlazar cuentas 2001</Titulo>
+  <Grupo>tb.aperturas</Grupo>
+  <FxControl>ofx_enlace_cuentas_2001</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Enlazar cuentas 2001
+--
+
+0.0.1  --  22/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT enlace_cuentas_2001()</Query>
+  <Variables>
+    <Variable id="bt_previo" params="on_click=__queryload,type=treeview,container=tv_reporte"/>
+    <Variable id="__queryload" params="SELECT * FROM ofx_load_data_txt()"/>
+  </Variables>
+</OpenFIN_VSR>

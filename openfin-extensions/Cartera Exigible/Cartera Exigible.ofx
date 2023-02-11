@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Cartera Exigible</Id>
+  <Titulo>Cartera Exigible</Titulo>
+  <Grupo>tb.gestoria</Grupo>
+  <FxControl>ofx_reporte_cartera_exigible</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Cartera Exigible
+--
+
+0.0.1  --  20/12/2021
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables>
+    <Variable id="bt_actualizar" params="type=treeview,on_click=___qrep,container=tv_carteratotal"/>
+    <Variable id="bt_ini" params="type=treeview,on_click=___qini,container=tv_carteratotal"/>
+    <Variable id="bt_reporte" params="type=reporte,on_click=___qrep,titulo=Cartera Exigible"/>
+    <Variable id="fechacorte" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="___qini" params="SELECT ' ' AS &quot;Credito&quot;,&#10;       ' ' AS &quot;No de Cliente&quot;,&#10;       ' ' AS &quot;Nombre&quot;,&#10;       ' ' AS &quot;No de pago&quot;,&#10;       ' ' AS &quot;Producto&quot;,&#10;       ' ' AS &quot;Fecha Apertura&quot;,&#10;       ' ' AS &quot;Fecha vencimiento&quot;,&#10;       ' ' AS &quot;Capital vigente&quot;,&#10;       ' ' AS &quot;Ordinario no exigible&quot;,&#10;       ' ' AS &quot;Costos no Exigibles&quot;,&#10;       ' ' AS &quot;comisión no Exigible&quot;,&#10;       ' ' AS &quot;Capital Exigible&quot;,&#10;       ' ' AS &quot;Ordinario Exigible&quot;,&#10;       ' ' AS &quot;Moratorio Exigible&quot;,&#10;       ' ' AS &quot;IVA moratorio&quot;,&#10;       ' ' AS &quot;Costos exigibles&quot;, &#10;       ' ' AS &quot;Comision&quot; ,&#10;       ' ' AS &quot;ivacomision&quot; ,&#10;       ' ' AS &quot;Seguro de vida&quot;,&#10;       ' ' AS &quot;Seg Uni&quot;,&#10;       ' ' AS &quot;iva uni&quot;,&#10;       ' ' AS &quot;GPS&quot;,&#10;       ' ' AS &quot;ivagps&quot;,&#10;       ' ' AS &quot;Total Exigible&quot;,&#10;       ' ' AS &quot;Total Adeudo&quot;"/>
+    <Variable id="___qrep" params="SELECT credito AS &quot;Credito&quot;,&#10;       idasociado AS &quot;No de Cliente&quot;,&#10;       nombre AS &quot;Nombre&quot;,&#10;       nopago AS &quot;No de pago&quot;,&#10;       ' ' AS &quot;Producto&quot;,&#10;       ' ' AS &quot;Fecha Apertura&quot;,&#10;       fechavenc AS &quot;Fecha vencimiento&quot;,&#10;       cap_novencido AS &quot;Capital vigente&quot;,&#10;       io_noex AS &quot;Ordinario no exigible&quot;,&#10;       int_noexigible AS &quot;Costos no Exigibles&quot;,&#10;       '0.00 ' AS &quot;comisión no Exigible&quot;,&#10;       cap_vencido AS &quot;Capital Exigible&quot;,&#10;       io_siex AS &quot;Ordinario Exigible&quot;,&#10;       penasmasmoratorios AS &quot;Moratorio Exigible&quot;,&#10;       iva2 AS &quot;IVA moratorio&quot;,&#10;       diferido AS &quot;Costos exigibles&quot;, &#10;       comision AS &quot;Comision&quot; ,&#10;       iva_comision AS &quot;ivacomision&quot; ,&#10;       segvida AS &quot;Seguro de vida&quot;,&#10;       segunidad AS &quot;Seg Uni&quot;,&#10;       iva AS &quot;iva uni&quot;,&#10;       gps AS &quot;GPS&quot;,&#10;       ivagps AS &quot;ivagps&quot;,&#10;       vencido AS &quot;Total Exigible&quot;,&#10;       adeudo_tot AS &quot;Total Adeudo&quot; &#10; FROM ofx_reporte_cartera_total()"/>
+  </Variables>
+</OpenFIN_VSR>

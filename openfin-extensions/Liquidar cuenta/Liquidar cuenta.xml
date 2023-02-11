@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Liquidar cuenta</Id>
+  <Titulo>Liquidar cuenta</Titulo>
+  <Grupo>tb.Aperturas</Grupo>
+  <FxControl>liquidar_cuenta</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Liquidar cuenta
+--
+
+0.0.1  --  23/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT liquidar_cuenta($idsucaux1, $idproducto1, $idauxiliar1)</Query>
+  <Variables>
+    <Variable id="idauxiliar1" params="label=Auxiliar,search=t_auxiliares_activos_vsr,default=0"/>
+    <Variable id="idproducto1" params="label=Producto,type=integer,search=t_productos,default=0,next_focus=idauxiliar"/>
+    <Variable id="idsucaux1" params="label=Sucursal,type=integer,search=t_sucursales,default=$suc,next_focus=idproducto"/>
+  </Variables>
+</OpenFIN_VSR>

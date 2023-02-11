@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Mas datos del prestamo</Id>
+  <Titulo>Mas datos del prestamo</Titulo>
+  <Grupo>tb.Aperturas</Grupo>
+  <FxControl>ofx_fecha_activacion_prestamo_sus</FxControl>
+  <Version>1.0.3</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Mas datos necesarios para el préstamo
+--
+1.0.3  --  10/11/2021
+--------------------------------
+* Se agregan datos VIN, vigencia de pólizas, póliza de seguro.
+
+1.0.2  --  12/11/2018
+--------------------------------
+* Se agrega campo para "fuente de fondeo".
+
+1.0.1  --  27/12/2017
+--------------------------------
+* Aceptación de caracteres especiales en el campo de Folio de Buro.
+
+
+1.0.0  --  10/06/2016
+--------------------------------
+* Fecha de activación del préstamo
+* Folio de buro
+* Fecha consulta buro
+* CAT</Descripcion>
+  <Query>--</Query>
+  <Variables>
+    <Variable id="bt_actualizar_tv" params="type=treeview,on_click=__qreporte,container=tv_garantia"/>
+    <Variable id="bt_ini" params="type=treeview,on_click=__qini,container=tv_garantia"/>
+    <Variable id="bt_treeview" params="type=treeview,on_click=__q1trigger,container=tv_bitacora"/>
+    <Variable id="cat" params="type=numeric"/>
+    <Variable id="__data__" params="idsucaux,f_idproducto,idauxiliar,idsucursal,idrol,idasociado,idproducto"/>
+    <Variable id="diasgraciaio" params="type=integer"/>
+    <Variable id="e_gps" params="type=numeric"/>
+    <Variable id="e_gps_1" params="type=numeric"/>
+    <Variable id="e_idauxiliar" params="label=Auxiliar,type=integer"/>
+    <Variable id="e_idproducto" params="label=Producto,type=integer,search=t_productos,default=0"/>
+    <Variable id="e_idsucaux" params="label=Sucursal,type=integer,search=t_sucursales"/>
+    <Variable id="e_litros" params="type=numeric"/>
+    <Variable id="e_numeco" params="type=varchar"/>
+    <Variable id="e_polizaseg" params="type=varchar"/>
+    <Variable id="e_puntos" params="type=integer,default=0"/>
+    <Variable id="e_seguni" params="type=numeric"/>
+    <Variable id="e_seguni_1" params="type=numeric"/>
+    <Variable id="e_segvid_1" params="type=numeric"/>
+    <Variable id="e_segvida" params="type=numeric"/>
+    <Variable id="e_vigenciapol" params="type=date"/>
+    <Variable id="e_vin" params="type=varchar"/>
+    <Variable id="_mc_fecha_con_buro" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="_mc_fecha_desembolso" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="_mc_folio_buro" params="type=bigint"/>
+    <Variable id="_mc_sobreprecio_bexica" params="type=numeric"/>
+    <Variable id="_mc_sobreprecio_sustentable" params="type=numeric"/>
+    <Variable id="__q1trigger" params="SELECT usuario AS &quot;Usuario&quot;,&#10;       fecha AS &quot;Fecha sistema&quot;,&#10;       fechareal AS &quot;Fecha real&quot;,&#10;       _data1 AS &quot;Tipo&quot;,&#10;       _data2 AS &quot;Dato&quot;&#10; FROM ofx_fecha_activacion_prestamo_sus_datosprestamo()"/>
+    <Variable id="__qini" params="SELECT ' ' AS &quot;Id&quot;,&#10; ' ' AS &quot;Referencia&quot;,&#10; ' ' AS &quot;Valor&quot;"/>
+    <Variable id="__qreporte" params="SELECT   idgarantia    AS &quot;Idgarantia&quot;,&#10;         referencia    AS &quot;Referencia&quot;,&#10;         valor         AS &quot;Valor&quot;,&#10;         idpropietario AS &quot;ID&quot;,&#10;         propietario   AS &quot;Propietario&quot;&#10;FROM ofx_fecha_activacion_prestamo_sus_garantias_rep();"/>
+    <Variable id="tv_garantia_tv" params="signals=cursor-changed,right=0;2,col=0"/>
+  </Variables>
+</OpenFIN_VSR>

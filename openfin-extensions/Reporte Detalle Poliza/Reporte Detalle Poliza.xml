@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Reporte Detalle Poliza</Id>
+  <Titulo>Reporte Detalle Poliza</Titulo>
+  <Grupo>tb.expediente</Grupo>
+  <FxControl>reporte_detalle_poliza</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Reporte Detalle Poliza
+--
+
+0.0.1  --  25/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT idsucaux||'-'||idproducto||'-'||idauxiliar AS auxiliar, idsucpol||'-'||periodo||'-'||tipopol||'-'||idpoliza  AS poliza, fecha, hora, cargo, abono, saldo, referencia, folio_ticket,secuencia FROM ofx_get_data_report_poliza(of_ofx_get('inputdate')::DATE)</Query>
+  <Variables>
+    <Variable id="bt_execute" params="on_click=__querygetdata,type=treeview,container=tv_reporte"/>
+    <Variable id="inputdate" params="label=Fecha,type=date,default=$fechat"/>
+    <Variable id="__querygetdata" params="SELECT idsucaux||'-'||idproducto||'-'||idauxiliar AS auxiliar, idsucpol||'-'||periodo||'-'||tipopol||'-'||idpoliza  AS poliza, fecha, hora, cargo, abono, saldo, referencia, folio_ticket,secuencia FROM ofx_get_data_report_poliza(of_ofx_get('inputdate')::DATE)"/>
+  </Variables>
+</OpenFIN_VSR>

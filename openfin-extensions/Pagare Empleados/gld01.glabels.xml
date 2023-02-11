@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glabels-document xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Avery" part="3114" size="US-Letter" description="Etiquetas de página completa">
+    <Meta category="label"/>
+    <Label-rectangle id="0" width="8.5in" height="11in" round="0in" x_waste="0in" y_waste="0in">
+      <Markup-margin size="0.0625in"/>
+      <Layout nx="1" ny="1" x0="0in" y0="0in" dx="0in" dy="0in"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="False">
+    <Object-text x="0.39789in" y="0.433035in" w="7.72591in" h="0.272561in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Bold" font_italic="False" line_spacing="1">P  A  G  A  R  É</Span>
+    </Object-text>
+    <Object-text x="0.342334in" y="2.32193in" w="7.72591in" h="0.272561in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Bold" font_italic="False" line_spacing="1">TABLA DE AMORTIZACION</Span>
+    </Object-text>
+    <Object-text x="0.351085in" y="0.682469in" w="7.90161in" h="1.17801in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Por este pagaré,                                                                                (en lo sucesivo el                       ), con número de cliente<NL/>                        y crédito                             prometo pagar incondicionalmente a la  orden  de<NL/>                                                                                         (en lo sucesivo el                          ),   con  domicilio   en<NL/>PASEO  DE  LA  REFORMA  1250,  COL.  LOMAS DE  CHAPULTEPEC, SECCION IV, Delegación Miguel Hidalgo,  México, Distrito<NL/>Federal C.P. 11000, la suma principal de<NL/>                                               más los intereses ordinarios que devengue dicha cantidad a razón del $tasaio%  durante $plazo ($plazo_letras) amortizaciones  sucesivas y  continuas, de  conformidad  con  el<NL/>calendario de pagos que se señala a continuación:</Span>
+    </Object-text>
+    <Object-text x="1.43437in" y="0.690555in" w="2.98044in" h="0.16639in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Bold" font_italic="False" line_spacing="1">$nombre_socio</Span>
+    </Object-text>
+    <Object-text x="5.68905in" y="0.673779in" w="0.954077in" h="0.198185in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">"Suscriptor"</Span>
+    </Object-text>
+    <Object-text x="0.33633in" y="0.987948in" w="4.37985in" h="0.1727in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Bold" font_italic="False" line_spacing="1">DE C. V. SOFOM E.N.R.</Span>
+    </Object-text>
+    <Object-text x="5.00305in" y="0.97292in" w="1.14684in" h="0.171439in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">"Beneficiario"</Span>
+    </Object-text>
+    <Object-text x="0.324596in" y="1.27684in" w="7.80945in" h="0.152002in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Bold" font_italic="False" line_spacing="1">                                                                   $montoentregado ($monto_letra)</Span>
+    </Object-text>
+    <Object-line x="5.83982in" y="0.821283in" dx="0.715in" dy="0in" line_width="0.00694444in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="5.10637in" y="1.11694in" dx="0.875in" dy="-8.68939e-17in" line_width="0.00694444in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.345209in" y="0.837213in" w="1.13344in" h="0.163736in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$idsucursal-$idrol-$idasociado</Span>
+    </Object-text>
+    <Object-text x="1.92284in" y="0.828839in" w="1.06239in" h="0.144114in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$idsucaux-$idproducto-$idauxiliar</Span>
+    </Object-text>
+    <Object-text x="6.08036in" y="0.838476in" w="2.01508in" h="0.138889in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Bold" font_italic="False" line_spacing="1">POSIBILIDADES VERDES S.A</Span>
+    </Object-text>
+    <Object-text x="0.336631in" y="10.5027in" w="7.75526in" h="0.138889in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Página 1</Span>
+    </Object-text>
+    <Object-text x="3.90139in" y="3.06531in" w="0.910181in" h="6.80043in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$iopp</Span>
+    </Object-text>
+    <Object-box x="0.898881in" y="2.66458in" w="6.77062in" h="0.389996in" line_width="0.0138889in" line_color="0x000000ff" fill_color="0x999999ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.852875in" y="2.71732in" w="0.970091in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">PAGO DE<NL/>AMORTIZACION</Span>
+    </Object-text>
+    <Object-text x="1.93621in" y="2.72421in" w="0.864701in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">FECHA DE<NL/>VENCIMIENTO</Span>
+    </Object-text>
+    <Object-text x="2.81696in" y="2.71732in" w="1.03097in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">SALDO<NL/>INSOLUTO</Span>
+    </Object-text>
+    <Object-text x="3.82159in" y="2.71732in" w="1.03097in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">INTERESES<NL/>ORDINARIOS</Span>
+    </Object-text>
+    <Object-text x="5.73824in" y="2.71732in" w="1.03097in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">CAPITAL </Span>
+    </Object-text>
+    <Object-line x="0.895912in" y="2.65586in" dx="0.00311354in" dy="8.03222in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="6.66881in" y="2.71732in" w="1.03097in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">MONTO A<NL/>PAGAR</Span>
+    </Object-text>
+    <Object-line x="1.87813in" y="2.65586in" dx="0.00274844in" dy="8.03222in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="2.87107in" y="2.6611in" dx="-0.010557in" dy="8.01699in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="3.87973in" y="2.65758in" dx="0.000406565in" dy="8.02051in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="4.87627in" y="2.65758in" dx="-0.0264915in" dy="8.02051in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="5.759in" y="2.66138in" dx="0.0107694in" dy="8.01699in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="6.73851in" y="2.6628in" dx="0.0105673in" dy="8.02528in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="7.6737in" y="2.6628in" dx="0.00282508in" dy="8.02528in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="0.897963in" y="10.6889in" dx="6.7713in" dy="-1.34816e-15in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="1.92931in" y="3.06531in" w="0.910181in" h="6.80043in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$venc</Span>
+    </Object-text>
+    <Object-text x="2.91079in" y="3.06531in" w="0.910181in" h="6.80043in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$saldo</Span>
+    </Object-text>
+    <Object-text x="5.75909in" y="3.06531in" w="0.923811in" h="6.80043in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$abono</Span>
+    </Object-text>
+    <Object-text x="6.79952in" y="3.06531in" w="0.815in" h="6.17758in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$pago</Span>
+    </Object-text>
+    <Object-text x="4.79954in" y="3.06531in" w="0.910181in" h="6.80043in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$iva</Span>
+    </Object-text>
+    <Object-text x="4.79381in" y="2.71732in" w="1.03097in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">IVA</Span>
+    </Object-text>
+  </Objects>
+  <Data/>
+</Glabels-document>

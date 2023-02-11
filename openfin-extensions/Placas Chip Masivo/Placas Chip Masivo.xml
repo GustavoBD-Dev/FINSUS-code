@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Placas Chip Masivo</Id>
+  <Titulo>Placas Chip Masivo</Titulo>
+  <Grupo>tb.aperturas</Grupo>
+  <FxControl>placas_chip</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>f</RequierePermiso>
+  <Descripcion>Placas Chip Masivo
+--
+
+0.0.1  --  10/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT * FROM ofx_cambio_placas_chip()</Query>
+  <Variables>
+    <Variable id="bt_previo" params="on_click=__queryload,type=treeview,container=tv_reporte"/>
+    <Variable id="__queryload" params="SELECT * FROM ofx_load_data_txt_placaschip()"/>
+  </Variables>
+</OpenFIN_VSR>

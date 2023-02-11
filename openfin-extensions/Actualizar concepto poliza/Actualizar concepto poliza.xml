@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Actualizar concepto poliza</Id>
+  <Titulo>Actualizar concepto poliza</Titulo>
+  <Grupo>tb.aperturas</Grupo>
+  <FxControl>actualizar_concepto_poliza</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>f</RequierePermiso>
+  <Descripcion>Actualizar concepto poliza
+--
+
+0.0.1  --  17/11/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query>SELECT actualizar_concepto_poliza($e_idsucpol, $e_periodo, $e_tipopol, $e_idpoliza, '$e_concepto')</Query>
+  <Variables>
+    <Variable id="e_concepto" params="type=text"/>
+    <Variable id="e_idpoliza" params="tupe=integer"/>
+    <Variable id="e_idsucpol" params="type=integer"/>
+    <Variable id="e_periodo" params="type=integer"/>
+    <Variable id="e_tipopol" params="type=integer"/>
+  </Variables>
+</OpenFIN_VSR>

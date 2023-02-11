@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glabels-document xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Avery" part="3114" size="US-Letter" description="Etiquetas de página completa">
+    <Meta category="label"/>
+    <Label-rectangle id="0" width="8.5in" height="11in" round="0in" x_waste="0in" y_waste="0in">
+      <Markup-margin size="0.0625in"/>
+      <Layout nx="1" ny="1" x0="0in" y0="0in" dx="0in" dy="0in"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="False">
+    <Object-text x="0.36776in" y="1.01552in" w="7.74972in" h="0.489776in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Los intereses ordinarios se causarán a partir del día siguiente a aquél en que se disponga el crédito,  haciéndose  exigibles<NL/>en las fechas establecidas en el calendario de pagos del presente pagaré, y no podrán cobrarse anticipadamente.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="1.47036in" w="7.74972in" h="0.749055in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Los  intereses  diarios  se  calcularán multiplicando el saldo insoluto del crédito otorgado, por la tasa de interés anual antes<NL/>referida,  dividiendo  lo  que  resulte  del  producto  por  360 (trescientos sesenta) días multipliacado por el número de días<NL/>efectivamente transcurridos.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="2.09185in" w="8.06343in" h="0.97428in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">El "Suscriptor" se obliga a pagar al "Beneficiario" intereses  moratorios  sobre  el  importe de las amortizaciones vencidas y<NL/>no pagadas del  crédito,  desde   el día inmediato siguiente a su vencimiento  y  hasta  el  día  en  que  queden  totalmente<NL/>cubiertas, mismos  que  se calcularán  multiplicando  por  4  (cuatro) veces   la   tasa  de  interés  ordinaria  señalada en el<NL/>presente   pagaré.   Las   partes   convienen   que   se  entenderá  por  intereses  moratorios, aquellos que se generan, con<NL/>independencia de la  generación  de  los  intereses ordinarios, si el  capital  o intereses de cualquiera de las amortizaciones<NL/>pactadas en este pagaré no son cubiertos oportunamente en los términos convenidos.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="3.16129in" w="8.06343in" h="0.596866in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Si cualquier pago que deba hacerse  conforme a este pagaré venciera en cualquier día en que las  Instituciones  de Crédito<NL/>del Distrito Federal no estuvieren abiertas al público para la  realización  de  operaciones  bancarias  normales , dicho pago<NL/>se hará en el día hábil inmediato  posterior a  aquel  que  no  lo  fuere  sin  necesidad  de requerimiento alguno.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="3.7725in" w="7.74972in" h="0.749055in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Todos  los  pagos  que   deban  hacerse conforme al presente  pagaré, se  harán  libres  y  sin deducción alguna o retención<NL/>por concepto de cualesquier tipo de contribuciones.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="4.23074in" w="8.06343in" h="1.86087in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">El tenedor  del  presente pagaré podrá dar por vencido anticipadamente el saldo insoluto del mismo,  en  caso  de  falta de<NL/>pago oportuno de cualquier abono del principal y exigir por consiguiente,  en  una sola exhibición el saldo que permanezca<NL/>insoluto al momento en que incurra en mora en uno o más pagos parciales, por tanto el pagaré  se considerará pagadero a<NL/>la vista,  por  lo  que el  "Suscriptor"  renuncia en este acto  a toda diligencia, presentación,  protesto  o  aviso  por falta de<NL/>pago  o rechazo de este pagaré. Por pago oportuno  se  entenderá  el  pago  que  resulte  de   sumar  los  montos   de  tres<NL/>meses consecutivos  contenidos  en  el esquema  de  pre-pagos contenido en el título de crédito, divididos entre tres.</Span>
+    </Object-text>
+    <Object-text x="0.388561in" y="5.27939in" w="7.74972in" h="1.36338in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Para  los  efectos de  los  artículos  128, 160  y  165  de  la  Ley  General de Títulos y Operaciones de Crédito, los plazos de<NL/>caducidad y prescripción  de las acciones cambiarias de este pagaré por falta de presentación para su cobro, se prorrogan<NL/>irrevocablemente   hasta  5  (cinco) años contados  a  partir de la fecha del presente pagaré, en el entendido de que dicha<NL/>extensión no impedirá la presentación de este pagaré con anterioridad a dicha fecha.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="6.01553in" w="7.74972in" h="1.36338in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">El  presente  pagaré  se rige  por  las  leyes  de   los  Estados   Unidos  Mexicanos,  por  lo  que  para  todo  lo  relativo  a  la<NL/>interpretación  y  cumplimiento  del  presente  pagaré,  el  "Suscriptor"  se  somete  irrevocablemente  a  la jurisdicción  de<NL/>tribunales  competentes  en   el   Estado   de  Méico ,  por  lo que el "Suscriptor" renuncia expresamente a cualquier otro fuero que por razón de su domicilio presente o futuro pudiera corresponderle.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="6.76089in" w="7.74972in" h="0.351537in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">(i) El "Suscriptor" señala  el  siguiente  domicilio para recibir cualquier emplazamiento y/o notificación respecto al presente<NL/>pagaré: el ubicado en $direccion_asoc.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="7.39404in" w="7.74972in" h="0.331903in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">El  presente  pagaré  consta  de  una  hoja  escrita  por ambos lados, el cual ha sido firmado por el "Suscriptor" y el Aval en<NL/>muestra de su libre consentimiento.</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="7.7829in" w="7.74972in" h="0.204355in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">En la Ciudad de México, Distrito Federal, a $fe_activacion_de_de</Span>
+    </Object-text>
+    <Object-text x="0.36776in" y="8.38935in" w="7.74972in" h="0.749055in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">El Suscriptor</Span>
+    </Object-text>
+    <Object-text x="0.346959in" y="9.15557in" w="7.74972in" h="0.279834in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">$nombre_socio</Span>
+    </Object-text>
+    <Object-line x="3.00367in" y="9.13108in" dx="2.621in" dy="-4.57087e-16in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.39789in" y="0.433035in" w="7.72591in" h="0.272561in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Bold" font_italic="False" line_spacing="1">P  A  G  A  R  É</Span>
+    </Object-text>
+    <Object-text x="0.336631in" y="10.5027in" w="7.75526in" h="0.138889in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Página 2</Span>
+    </Object-text>
+  </Objects>
+  <Data/>
+</Glabels-document>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Resumen estado de cuenta</Id>
+  <Titulo>Resumen estado de cuenta</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl>res_edo_cta</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Resumen estado de cuenta
+--
+
+0.0.1  --  19/01/2023
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables/>
+</OpenFIN_VSR>

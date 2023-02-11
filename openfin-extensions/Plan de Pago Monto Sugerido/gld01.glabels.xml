@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glabels-document xmlns="http://glabels.org/xmlns/3.0/">
+  <Template brand="Avery" part="3114" size="US-Letter" description="Etiquetas de página completa">
+    <Meta category="label"/>
+    <Label-rectangle id="0" width="8.5in" height="11in" round="0in" x_waste="0in" y_waste="0in">
+      <Markup-margin size="0.0625in"/>
+      <Layout nx="1" ny="1" x0="0in" y0="0in" dx="0in" dy="0in"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="False">
+    <Object-text x="1.5in" y="2.45in" w="0.7in" h="6.80043in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$idserie</Span>
+    </Object-text>
+    <Object-text x="3.5in" y="2.45in" w="0.7in" h="6.80043in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$venc</Span>
+    </Object-text>
+    <Object-text x="5.5in" y="2.45in" w="0.7in" h="6.80043in" justify="Right" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="0.96">$pago</Span>
+    </Object-text>
+    <Object-line x="1in" y="2in" dx="-0.0161372in" dy="8in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="3in" y="2in" dx="-0.0161372in" dy="8in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="5in" y="2in" dx="-0.0161372in" dy="8in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="7in" y="2in" dx="0.00160946in" dy="8in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="1in" y="10in" dx="6in" dy="-1.33501e-15in" line_width="0.0138889in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-box x="1in" y="2in" w="6in" h="0.389996in" line_width="0.0138889in" line_color="0x000000ff" fill_color="0x999999ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="1.1in" y="2.2in" w="2in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Pago de amortización</Span>
+    </Object-text>
+    <Object-text x="3in" y="2.2in" w="2in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Fecha de vencimiento</Span>
+    </Object-text>
+    <Object-text x="5in" y="2.2in" w="2in" h="0.416665in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Monto total a pagar</Span>
+    </Object-text>
+    <Object-text x="0.39789in" y="0.433035in" w="7.72591in" h="0.272561in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Bold" font_italic="False" line_spacing="1">P  A  G  A  R  É</Span>
+    </Object-text>
+    <Object-text x="0.342334in" y="1.75in" w="7.72591in" h="0.272561in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="11" font_weight="Bold" font_italic="False" line_spacing="1">TABLA DE RENTAS PARCIALES</Span>
+    </Object-text>
+    <Object-text x="0.17704in" y="0.630979in" w="8.20474in" h="1.47622in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">Por este pagaré, Yo                                                                                 (en lo sucesivo el                          ), con número de cliente<NL/>                  y arrendamiento                         prometo pagar incondicionalmente a la orden de<NL/>                                                                                                             (en lo sucesivo el                        ),  con  domicilio en <NL/>Insurgentes Sur 1391, Local A12, Col. Insurgentes Mixcoac, C. P. 03920, Alcaldía Benito Juárez, CDMX <NL/>la renta total de                                                                                                                                   <NL/>más el impuesto al valor agregado (IVA) correspondiente, durante $plazo  ($plazo_letras)<NL/>rentas sucesivas y continuas de conformidad con el calendario de pagos que se señala a continuación:</Span>
+    </Object-text>
+    <Object-text x="1.26332in" y="0.654238in" w="3.33431in" h="0.16639in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Bold" font_italic="False" line_spacing="1">$nombre_socio</Span>
+    </Object-text>
+    <Object-text x="5.7in" y="0.65in" w="0.954in" h="0.198169in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">"Suscriptor"</Span>
+    </Object-text>
+    <Object-text x="0.138115in" y="0.952117in" w="5.24379in" h="0.1727in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Bold" font_italic="False" line_spacing="1">SOCIEDAD FINANCIERA DE OBJETO MÚLTIPLE ENTIDAD NO REGULADA</Span>
+    </Object-text>
+    <Object-text x="5.57953in" y="0.93387in" w="1.14684in" h="0.171439in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Bold" font_italic="False" line_spacing="1">"Beneficiario"</Span>
+    </Object-text>
+    <Object-text x="2.09485in" y="1.22076in" w="6.91788in" h="0.172093in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="7" font_weight="Bold" font_italic="False" line_spacing="1"><NL/>$montoentregado ($monto_letra)</Span>
+    </Object-text>
+    <Object-line x="5.85in" y="0.785in" dx="0.715in" dy="0in" line_width="0.00694444in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-line x="5.7in" y="1.075in" dx="0.875in" dy="-8.68939e-17in" line_width="0.00694444in" line_color="0x000000ff" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0"/>
+    <Object-text x="0.156254in" y="0.79in" w="0.884174in" h="0.163736in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$idsucursal-$idrol-$idasociado</Span>
+    </Object-text>
+    <Object-text x="1.8in" y="0.79in" w="1.06239in" h="0.144114in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="9" font_weight="Regular" font_italic="False" line_spacing="1">$idsucaux-$idproducto-$idauxiliar</Span>
+    </Object-text>
+    <Object-text x="5.99in" y="0.799162in" w="2.91968in" h="0.138889in" justify="Left" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Bold" font_italic="False" line_spacing="1">POSIBILIDADES  VERDES  S.A. DE C.V, </Span>
+    </Object-text>
+    <Object-text x="0.336631in" y="10.5127in" w="7.75526in" h="0.138889in" justify="Center" valign="Top" auto_shrink="False" a0="1" a1="0" a2="0" a3="1" a4="0" a5="0">
+      <Span color="0x000000ff" font_family="Sans" font_size="8" font_weight="Regular" font_italic="False" line_spacing="1">Página 1</Span>
+    </Object-text>
+  </Objects>
+  <Data/>
+</Glabels-document>

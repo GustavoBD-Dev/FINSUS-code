@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Traspaso de Saldos a Favor - Abono Nueva Cartera</Id>
+  <Titulo>ofx_traspaso_sdofavor</Titulo>
+  <Grupo>tb.Ventanilla</Grupo>
+  <FxControl>ofx_traspaso_sdofavor_v2</FxControl>
+  <Version>1.0.0</Version>
+  <RequierePermiso>f</RequierePermiso>
+  <Descripcion>Aplica los saldos a favor de los clientes a los créditos correspondientes.</Descripcion>
+  <Query>SELECT * FROM ofx_traspaso_sdofavor_v2_genera_proc()</Query>
+  <Variables>
+    <Variable id="archivo" params="type=TEXT"/>
+    <Variable id="bt_noenc" params="on_click=__queryn,type=treeview,container=tv_noencontrados"/>
+    <Variable id="bt_previo" params="on_click=__queryp,type=treeview,container=tv_reporte"/>
+    <Variable id="idcuenta" params="type=TEXT,search=t_cuentas,default=1103010101"/>
+    <Variable id="__main__" params="esproceso=TRUE"/>
+    <Variable id="__queryn" params="SELECT * FROM ofx_traspaso_sdofavor.no_encontrados"/>
+    <Variable id="__queryp" params="SELECT * FROM ofx_traspaso_sdofavor_previo_v2() ORDER BY nombre"/>
+    <Variable id="tv_noenc_tv" params="sort=1"/>
+    <Variable id="tv_reporte_tv" params="sort=1"/>
+  </Variables>
+</OpenFIN_VSR>

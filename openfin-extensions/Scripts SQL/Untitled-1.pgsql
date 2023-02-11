@@ -1,0 +1,1 @@
+SELECT * FROM deudores LIMIT 10;

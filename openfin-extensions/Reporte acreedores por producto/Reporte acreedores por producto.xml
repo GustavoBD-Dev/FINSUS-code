@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenFIN_VSR>
+  <Id>Reporte acreedores por producto</Id>
+  <Titulo>Reporte acreedores por producto</Titulo>
+  <Grupo>Temporal</Grupo>
+  <FxControl>ofx_reporte_acreedores_pp</FxControl>
+  <Version>0.0.1</Version>
+  <RequierePermiso>t</RequierePermiso>
+  <Descripcion>Reporte acreedores por producto
+--
+
+0.0.1  --  15/12/2022
+---------------------
+* Version inicial
+* ...</Descripcion>
+  <Query/>
+  <Variables/>
+</OpenFIN_VSR>
